@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    background-color: #323234;
+    overflow-x: hidden; /* αποτρέπει το οριζόντιο scroll */
+     overflow: hidden;
+     overflow-y: auto;
+     -webkit-overflow-scrolling: touch;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px){
+    .main_content{
+        margin: 0 35px;
+        padding-top: 20px;
+        width: 350px;
+        height: 900px;
+        overflow: hidden;
+    }
+
+    .main_content{
+        margin: 0 35px;
+        padding-top: 20px;
+        width: 350px;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .arrow2{
+        color: white;
+        font-weight: bold;
+        background-color: #ffff;
+        width: 40px;
+    }
+
+    .back_image img{
+        width: 30px;
+        margin: 10px;
+    }
+}
+

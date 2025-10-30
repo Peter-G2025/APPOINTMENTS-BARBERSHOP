@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Κράτηση</title>
+  <link rel="stylesheet" href="css/form.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body class="grey-bg">
+  <div class="photo_profile">
+            <img src="img/photo_profile.png" alt="photo_profile" id="profile">
+
+            <div class="logo_name">
+                <h1>BARBERSHOP <br><p>Πάτρα Δοϊρανης 25,<br> ΤΚ 26441</p> </h1>
+            </div>
+        </div>
+  <div class="container booking-container">
+    <header class="header">
+      <h1>Φόρμα Κράτησης</h1>
+      <p id="bookingInfo"></p>
+    </header>
+
+    <form id="bookingForm" class="form">
+      <div class="form-group">
+        <label for="name">Όνομα</label>
+        <input type="text" id="name" required placeholder="Το όνομά σου" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Τηλέφωνο</label>
+        <input type="tel" id="phone" required placeholder="+30 69..." />
+      </div>
+
+      <div class="form-group">
+        <label for="service">Υπηρεσία</label>
+        <input type="text" id="service" placeholder="π.χ. Κούρεμα / Βαφή" />
+      </div>
+
+      <div class="form-buttons">
+        <button type="submit" class="submit-btn">Ολοκλήρωση</button>
+        <button type="button" id="backBtn" class="back-btn">Πίσω</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="java/form.js"></script>
+</body>
+</html>
+

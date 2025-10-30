@@ -1,0 +1,79 @@
+/* ======== Φόρμα Κράτησης ======== */
+.grey-bg {
+  background: #454545;
+}
+
+.booking-container {
+  background: #3a3939;
+  padding: 1.5rem;
+  border-radius: 20px;
+   position: relative;
+  top:70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ 
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: black;
+}
+
+.form-group input {
+  padding: 0.7rem;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4b8df8;
+  box-shadow: 0 0 4px rgba(75, 141, 248, 0.4);
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.submit-btn,
+.back-btn {
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.submit-btn {
+  background: #4b8df8;
+  color: white;
+  font-weight: 600;
+}
+
+.submit-btn:hover {
+  background: #3a7ae0;
+}
+
+.back-btn {
+  background: #ddd;
+  color: #333;
+}
+
+.back-btn:hover {
+  background: #ccc;
+}

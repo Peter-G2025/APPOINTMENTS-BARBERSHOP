@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Κομμωτήριο – Κρατήσεις</title>
+  <link rel="stylesheet" href="css/booking.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  
+
+  <section class="main_content">
+        <div class="photo_profile">
+            <img src="img/photo_profile.png" alt="photo_profile" id="profile">
+
+            <div class="logo_name">
+                <h1>BARBERSHOP <br><p>Πάτρα Δοϊρανης 25,<br> ΤΚ 26441</p> </h1>
+            </div>
+        </div>
+
+  <div class="container">
+    <header class="header">
+      <h1>Κομμωτήριο</h1>
+      <p>Επίλεξε ημέρα και ώρα</p>
+    </header>
+
+    <section class="calendar-section">
+      <div class="month-controls">
+        <button id="prevMonth">◀</button>
+        <h2 id="monthLabel"></h2>
+        <button id="nextMonth">▶</button>
+      </div>
+
+      <div class="weekdays">
+        <div>Δε</div><div>Τρ</div><div>Τε</div><div>Πε</div><div>Πα</div><div>Σα</div><div>Κυ</div>
+      </div>
+
+      <div id="calendarGrid" class="calendar-grid"></div>
+    </section>
+
+    <section id="timeSection" class="time-section" hidden>
+      <h3 id="selectedDateLabel"></h3>
+      <div id="timesContainer" class="times-container"></div>
+    </section>
+  </div>
+
+  <script src="java/calendar.js"></script>
+</body>
+</html>
